@@ -218,7 +218,20 @@ python client/chat_client.py
 # Start Streamlit Web Client (preferred)
 streamlit run client/streamlit_chat_client.py
 ```
+# Demo Pics
 
+![alt text](image.png)
+
+### Output Example
+
+![alt text](image-1.png)
+
+### Question Example 
+
+![alt text](image-2.png)
+
+### Output Example
+![alt text](image-3.png)
 ---
 
 # ❤️ Made with love for developers who love clean code.
