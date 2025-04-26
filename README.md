@@ -33,8 +33,8 @@ Supports both **Terminal Client** and **Streamlit Web UI** 🚀
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/codebase-chat-assistant.git
-cd codebase-chat-assistant
+git clone https://github.com/Aniket-Suthar/multiagent_githubify.git
+cd multiagent_githubify
 ```
 
 ---
