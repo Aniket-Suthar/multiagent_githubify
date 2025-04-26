@@ -216,7 +216,7 @@ python agents/reasoner_agent.py
 python client/chat_client.py
 
 # Start Streamlit Web Client (preferred)
-streamlit run streamlit_chat_client.py
+streamlit run client/streamlit_chat_client.py
 ```
 
 ---
