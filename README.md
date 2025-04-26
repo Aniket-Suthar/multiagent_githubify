@@ -224,6 +224,3 @@ streamlit run streamlit_chat_client.py
 # ❤️ Made with love for developers who love clean code.
 
 ---
-
-Would you also like me to create a **`requirements.txt`** for you that matches all your imports exactly? 🚀  
-If yes, say "**generate requirements**"! 📦
