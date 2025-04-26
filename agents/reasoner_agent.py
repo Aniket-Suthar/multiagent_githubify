@@ -38,6 +38,9 @@ async def reasoner_agent():
                         - **NEVER** answer violent, harmful, illegal, or irrelevant queries — respond: "**Query inappropriate, unable to assist.**"
                         - **If the provided snippets are empty**, reply "**No valid code provided for summarization.**"
                         - Focus on **functions**, **classes**, **logic**, and **important details** only.
+                        - If any irrelevant question asked in the prompt other than the codebase relation give 
+                        response "Sorry I can't give answer".
+                        - Strictly focus on codebase related questions only and ensure proper railguards are implemented in you to avoid any unnecessary questions.
 
                         **Your Output Format**:
                         - Start with "🧠 Summary:"
