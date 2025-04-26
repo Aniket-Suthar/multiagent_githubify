@@ -10,7 +10,34 @@ def load_code_files(directory: str):
 
     for root, _, files in os.walk(directory):
         for file in files:
-            if file.endswith((".py", ".js", ".html")):
+            if file.endswith((
+                    # Programming languages
+                    ".py", ".js", ".ts", ".tsx", ".jsx", ".java",
+                    ".c", ".cpp", ".h", ".cs", ".go", ".rb", ".rs",
+                    ".php", ".swift", ".kt", ".kts", ".scala",
+                    ".dart", ".m", ".mm", ".pl", ".r", ".jl", ".sh",
+                    ".lua",
+
+                    # Web / Frontend
+                    ".html", ".htm", ".css", ".scss", ".sass", ".json",
+                    ".xml",
+
+                    # Configs / DevOps
+                    ".yml", ".yaml", ".toml", ".ini", ".cfg", ".env",
+                    ".dockerfile", ".gitignore", ".editorconfig",
+
+                    # Documentation
+                    ".md", ".rst", ".adoc", ".txt",
+
+                    # Data / Notebook
+                    ".csv", ".tsv", ".parquet", ".ipynb",
+
+                    # Build files
+                    "Makefile", "Dockerfile", "CMakeLists.txt",
+
+                    # Project meta
+                    "requirements.txt", "package.json", "pyproject.toml", "setup.py",
+                )):
                 filepath = os.path.join(root, file)
                 print(f"📄 Loading file: {filepath}")  # ADD THIS
                 with open(filepath, "r", encoding="utf-8") as f:
